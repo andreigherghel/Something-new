@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+body{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+#webpage{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 57px;
+    border-bottom: 10x solid red;  
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header span {
+    color: rgb(30, 67, 204);
+    font-size: 15px;
+}
+
+.header h1{
+    color: rgb(91, 16, 16);
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-section h1{
+    text-align: center;
+    color: rgb(15, 28, 28);
+}
+
+.main-Teams h2{
+    font-size: 30px;
+}
+
+.main-Drivers h2{
+    font-size: 30px;
+}
+
+.header-img img{
+   height: fit-content;
+   width: auto;
+}
